@@ -1,0 +1,24 @@
+eye 0.0 0.0 3.5
+size 200 200
+ortho -1 -1 1 1
+ambient 0.7
+# light definition
+# x y z  intensity
+light  1.0  0.0 1.0 1.0
+#light  1.0  0.0 1.0 1.0
+#object definition
+# a b c d e f g h j k red green blue Ka Kd Ks n
+# red sphere at x=0, y=0, z=-10 radius=1
+#		a   b   c   d   e   f   g   h    j    k   r   g   b  Ka  Kd  Ks  n 
+object 1.0 1.0 1.0 0.0 0.0 0.0 0.0 0.0 10.0 99.0 0.0 1.0 0.0 0.3 0.5 0.6 5 0.3 0 1
+#
+#plane 1
+#		a   b   c   d   e   f   g   h   j    k   r   g   b  Ka  Kd  Ks  n 
+object 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 30.0 1.0 0.8 0.2 0.3 0.5 0.0 5 0 0 1
+#plane 2
+object 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 5.0 0.3 0.3 1.0 0.3 0.5 0.0 5 0 0 1
+#
+# background color
+background 0.5 0.5 0.5
+profundidade 1
+output oneplanesphere.pnm

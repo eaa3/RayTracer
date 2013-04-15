@@ -1,0 +1,7 @@
+Release
+Debug
+*.sdf
+ipch
+*.xml
+_UpgradeReport_Files
+*.old
